@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c;
+printf("enter the basic salary of the employee, percentage of DA and percentage of HRA");
+scanf("%d %d %d",&a,&b,&c);
+printf("the final salary is %d",a*(100+b+c)/100 );
+return 0;
+}

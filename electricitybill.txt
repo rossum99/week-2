@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int a,b=7,c=200;
+printf("enter the no. of units consumed");
+scanf("%d",&a);
+printf("the bill for this month is %d",a*b+c);
+return 0;
+}
